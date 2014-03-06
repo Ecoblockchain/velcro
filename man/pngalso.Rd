@@ -1,0 +1,26 @@
+\name{pngalso}
+\alias{pngalso}
+\title{Convert pdf to png}
+\usage{
+pngalso(fname, basedir = NULL, dens = 150)
+}
+\arguments{
+  \item{fname}{the name of the pdf file to convert}
+
+  \item{basedir}{the directory the pdf file is in, if NULL,
+  the "figures" folder in the current working directory is
+  taken}
+
+  \item{dens}{sets the resolution of the resulting png}
+}
+\value{
+nothing, invoked for side effects (png creation)
+}
+\description{
+Save a previously created pdf file also as png in the same
+directory. Requires imagemagick to be installed on the
+system and to be in the $PATH. On Windows, the system
+command "convert.exe" is found before ImageMagick's
+convert.exe, that's why we have to hardcode it.
+}
+

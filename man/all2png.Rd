@@ -1,0 +1,18 @@
+\name{all2png}
+\alias{all2png}
+\title{Convert all pdf files to pngs}
+\usage{
+all2png(dens = 150)
+}
+\arguments{
+  \item{dens}{set the resolution of the resulting png
+  files}
+}
+\value{
+nothing, invoked for side effects
+}
+\description{
+Convert all pdf files in figures folder of current working
+directory to png files.
+}
+

@@ -1,0 +1,10 @@
+Package: velcro
+Type: Package
+Title: Various convenience functions
+Version: 0.1
+Date: 2013-11-26
+Author: Christian Zang
+Maintainer: Christian Zang <christian.zang@wzw.tum.de>
+Description: This package holds functions that cannot easily be grouped to
+    other, more specific packages.
+License: MIT
