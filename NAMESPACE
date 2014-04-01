@@ -1,2 +1,4 @@
 export(all2png)
 export(pngalso)
+export("%byname%")
+export("%rbyname%")
