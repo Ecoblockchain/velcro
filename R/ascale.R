@@ -9,6 +9,6 @@
 ascale <- function(x, .mean, .sd) {
   xmean <- mean(x)
   xsd <- sd(x)
-  .mean + (x - meanx) * .sd/sdx
+  .mean + (x - xmean) * .sd/xsd
 }
 
