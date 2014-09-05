@@ -7,8 +7,8 @@
 ##' @return a rescaled numeric vector
 ##' @export
 ascale <- function(x, .mean, .sd) {
-  xmean <- mean(x)
-  xsd <- sd(x)
+  xmean <- mean(x, na.rm = TRUE) 
+  xsd <- sd(x, na.rm = TRUE)
   .mean + (x - xmean) * .sd/xsd
 }
 
